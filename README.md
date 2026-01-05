@@ -33,3 +33,6 @@ const web3 = new MiniAppWeb3Provider();
 const address = await web3.connect();
 
 console.log("Connected wallet:", address
+Lightweight EIP-1193 Web3 provider for Mini Apps and mobile dApps.
+
+موفر Web3 خفيف للتطبيقات المصغرة وتطبيقات الجوال اللامركزية.
