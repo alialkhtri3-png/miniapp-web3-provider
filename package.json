@@ -1,12 +1,14 @@
 {
-  "name": "miniapp-web3-provider",
+  "name": "ali-alkhtri-web3-provider",
   "version": "0.1.0",
   "description": "Lightweight EIP-1193 Web3 provider toolkit for Mini Apps",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo no-tests"
   },
   "keywords": [
     "web3",
@@ -21,17 +23,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alialkhtri3-png/miniapp-web3-provider.git"
+    "url": "git+https://github.com/alialkhtri3-png/miniapp-web3-provider.git"
   },
   "homepage": "https://github.com/alialkhtri3-png/miniapp-web3-provider",
   "files": [
     "dist",
     "README.md"
   ],
-  "exports": [
-    {
+  "exports": {
+    ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     }
-  ]
+  }
 }
