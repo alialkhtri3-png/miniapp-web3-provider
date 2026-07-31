@@ -25,3 +25,23 @@ const web3 = new MiniAppWeb3Provider();
 const address = await web3.connect();
 
 console.log("Connected wallet:", address);
+
+## 🛠 Tech Stack
+
+- JavaScript / TypeScript
+- Web3 / EVM
+- REST / JSON-RPC
+- EIP-1193 Provider API
+
+## 📌 Status
+
+Actively maintained.
+
+## 👤 Author
+
+Ali Alkhtri  
+GitHub: https://github.com/alialkhtri3-png
+
+## 🌍 Open Source
+
+Built for developers creating secure wallet integrations and Web3 Mini Apps.
