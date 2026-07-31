@@ -1,20 +1,28 @@
-# miniapp-web3-provider
+عن# miniapp-web3-provider
 
-Lightweight Web3 provider toolkit for connecting wallets with Mini Apps and decentralized applications.
+Lightweight Web3 provider toolkit for Mini Apps and mobile dApps.
 
-## ✨ Features
+أداة Web3 مفتوحة المصدر لتسهيل ربط المحافظ الرقمية بتطبيقات Web3 وتطبيقات Mini Apps، مع التركيز على بيئات الهاتف المحمول.
 
-- EIP-1193 compatible provider
+---
+
+## ✨ Features | الميزات
+
+- EIP-1193 compatible
 - Secure wallet interactions
 - Clean and simple API
-- Mobile-friendly Web3 integration
+- Mobile & Mini App friendly
 
-## 🚀 Use Cases
+---
+
+## 🚀 Use Cases | حالات الاستخدام
 
 - Web3 dApps
 - Mini Apps
-- Wallet connections
-- Blockchain mobile applications
+- Wallet integrations
+- Mobile-first blockchain apps
+
+---
 
 ## 🧩 Example
 
@@ -24,25 +32,13 @@ import { MiniAppWeb3Provider } from "miniapp-web3-provider";
 const web3 = new MiniAppWeb3Provider();
 const address = await web3.connect();
 
+console.log("Connected wallet:", address
+Lightweight EIP-1193 Web3 provider for Mini Apps and mobile dApps.
+
+موفر Web3 خفيف للتطبيقات المصغرة وتطبيقات الجوال اللامركزية.
+import { MiniAppWeb3Provider } from "miniapp-web3-provider";
+
+const web3 = new MiniAppWeb3Provider();
+const address = await web3.connect();
+
 console.log("Connected wallet:", address);
-```
-
-## 🛠 Tech Stack
-
-- JavaScript / TypeScript
-- Web3 / EVM
-- REST / JSON-RPC
-- EIP-1193 Provider API
-
-## 📌 Status
-
-Actively maintained.
-
-## 👤 Author
-
-Ali Alkhtri  
-GitHub: https://github.com/alialkhtri3-png
-
-## 🌍 Open Source
-
-Built for developers creating secure wallet integrations and Web3 Mini Apps.
