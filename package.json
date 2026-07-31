@@ -18,5 +18,20 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.7.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alialkhtri3-png/miniapp-web3-provider.git"
+  },
+  "homepage": "https://github.com/alialkhtri3-png/miniapp-web3-provider",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": [
+    {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  ]
 }
