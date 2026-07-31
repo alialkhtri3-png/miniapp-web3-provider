@@ -25,6 +25,7 @@ const web3 = new MiniAppWeb3Provider();
 const address = await web3.connect();
 
 console.log("Connected wallet:", address);
+```
 
 ## 🛠 Tech Stack
 
