@@ -1,0 +1,19 @@
+{
+  "name": "miniapp-web3-provider",
+  "version": "0.1.0",
+  "description": "Lightweight EIP-1193 Web3 provider toolkit for Mini Apps",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "web3",
+    "ethereum",
+    "eip-1193",
+    "wallet",
+    "miniapp"
+  ],
+  "license": "MIT"
+}
